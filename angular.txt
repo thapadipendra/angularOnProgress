@@ -1,0 +1,10 @@
+components,2 way data binding,[(ngmodle)](dir),built your own directives,service and dependency injection,routing(singe page),observables(asynchronous),forms,pipes,http,authentication,optimization and ngmodules,deploy,animation and test
+npm install --save bootstrap@3
+add to angular.json  ../nodemoduld/bootstrazp/mincss
+ng serve
+ng g c compname
+data binding communication betwn typescript code and templste
+string interpolation ( eg {{data}}) could use ternery expression
+property binding (eg [property]="hhh")
+event binding((e)='expression')
+two way data binding ie react event and o/p at same time eg([(ngmodel)]="data") with 2 way we combined property and dta binding 
