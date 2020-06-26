@@ -13,7 +13,7 @@ export class TranslateService {
   translate(text: string) {
     return this.http.post(this.url, {
       "q": text,
-      "target": "es"
+      "target": "zh_CN"
     }).pipe(
       map((res: any) => {
         return res.data.translations[0].translatedText;
